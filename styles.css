@@ -21,3 +21,17 @@
     font-weight: 700;
     font-style: italic;
   }
+
+  h1 {
+    padding-left: 20px;
+  }
+
+  #html-link, #css-link {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 10px 20px;
+    border: 1px;
+    border-color: black;
+  }
