@@ -1,1 +1,1 @@
-Sebuah project pengimplementasian HTML & CSS
+Sebuah project implementasi ilmu HTML & CSS
