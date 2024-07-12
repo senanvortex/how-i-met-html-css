@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap" rel="stylesheet">
+
     <title>How I Met HTML & CSS</title>
 </head>
 <body>
     <div class="header">
-    <div id="judul">
-        <h1 class="anonymous-pro-bold">How I Met HTML & CSS</h1>
-    </div>
+        <!-- <h1 class="anonymous-pro-bold">How I Met HTML & CSS</h1> -->
+        <h1>How I Met HTML & CSS</h1>
     <div class="navbar">
         <ul>
             <li id="html-link" class="navbar-button"><a href="#">HTML</a></li>
@@ -24,9 +24,8 @@
     </div>
     <div class="hero">
         <div class="container">
-            <div class="left-container">
-                <div class="html-container">
-                <a href="#">
+            <div class="left-container" id="leftDiv">
+                <div class="html-container" id="htmlDiv">
                     <div class="image" id="html-image-container">
                         <img id="html" src="/assets/html.png" alt="html">
                         <img id="arrow" src="/assets/arrow.gif" alt="arrow">
@@ -37,17 +36,14 @@
                     <div class="html-text">
                         <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content. Yeah you right, i'm google it!</p>
                     </div>
-                </a>
                 </div>
-                <div class="css-container">
+                <div class="css-container" id="cssDiv">
                     <div class="css-image-container">
-                    <a href="#">
-                        <img src="/assets/css.png" class="css-image" alt="css">
+                       <a href="#"> <img src="/assets/css.png" class="css-image" alt="css"></a>
                     </div>
                     <div class="css-text">
                         <p>CSS is a board game for two players. It is sometimes called international chess or Western chess to distinguish it from related games such as xiangqi and shogi. Chess is an abstract strategy game that involves no hidden information and no elements of chance. So, basicly I agree with dead Einstain for the css stands for.</p>
                     </div>
-                    </a>
                 </div>
             </div>
             <div class="right-container">
@@ -67,5 +63,6 @@
         <p>Btw, I Met HTML & CSS in Tutorial Hell, thats's all</p>
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
